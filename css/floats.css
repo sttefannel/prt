@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.top{
+    width: 100%;
+}
+
+
+.fl{
+    float: left;
+    width: auto;
+}
+
+
+.logo{
+    height: 174px;
+    width: 230px;
+}
+
+
+.meniu li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    padding: 3px 30px;
+    border: 1px solid;
+    }
+
+
+.clearfix:after{
+    content: " " ;
+    display: table;
+    clear: both;
+}
+
+.meniu li a{
+    text-decoration: none;
+}
+
+
+.header{
+    height: 174px; 
+    float: left;
+    width: 80%;
+    position: relative;
+  
+}
+
+.banner{
+    height: 74%;
+    width: 100%;
+}
+
+
+.navigation{
+    height: 26%;
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    left:25%;
+}
+
+
+.background{
+    height: 400px;
+    background-color: #046868;
+}
+
+
+.botmid{
+    margin-top: 300px;
+}
+
+
+.botmidnav{
+    float: left;
+}
+
+.botmidart{
+    float: left;
+    padding: 0 50px;
+    width: 50%;
+    margin-left: 290px;
+}
+
+.arttxt{
+    font-size:large;
+}
+
+.titlu{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.botmenu{
+    list-style-type: none;
+    font-weight: bold;
+    
+ 
+}
+
+.und{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+}   
+
+
+.lista{
+    padding-top: 10px;
+    background-color: orangered;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    
+} 
+
+
+
+.poza{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    margin: 0 auto;
+    transform: translate(12%);
+}
+
+.muiere{
+    width: 800px;
+    height: 500px;
+    
+
+}
+
+
+.asside{
+    position: absolute;
+    right: 0.5%;
+    top: 62%;
+    
+    text-align: center;
+}
+
+
+.asstit{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+.asstitdoi{
+    background-color: rgba(105, 108, 112, 0.596);
+    color: lightyellow;
+    display: inline-block;
+    padding: 15px;
+    width: 200px;
+
+}
+
+
+
+.asstit:hover{
+    color: yellow;
+}
+
+
+
+.assul{
+    list-style-type: none;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.assli{
+    list-style-type: none;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.asscnt{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.asscnt:hover{
+    text-transform: uppercase;
+    color: #4caf50;
+}
